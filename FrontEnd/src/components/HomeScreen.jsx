@@ -11,6 +11,7 @@ export default function HomeScreen() {
                 <Typography variant={"body1"}>This template is written using Material UI and React</Typography>
             </Box>
             <Button variant="contained" href={"./sign-in"}>Sign In</Button>
+            <Button variant="contained" href={"./todo-list"}>Todo List</Button>
         </Container>
     );
 }

@@ -4,10 +4,11 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import HomeScreen from "./components/HomeScreen";
-import {createRoot} from "react-dom/client";
+import { createRoot } from "react-dom/client";
 import ErrorScreen from "./components/ErrorScreen";
 import SignInScreen from "./components/SignInScreen";
-import {createTheme, ThemeProvider} from "@mui/material/styles";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import TodoItemsScreen from "./components/TodoItemsScreen";
 
 const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
     {
         path: "sign-in",
         element: <SignInScreen />
+    },
+    {
+        path: "todo-list",
+        element: <TodoItemsScreen />
     }
 ]);
 
