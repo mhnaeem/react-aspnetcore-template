@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.VisualStudio.Javascript.Sdk/0.5.74-alpha">
+  <PropertyGroup>
+    <BuildCommand>npm run build</BuildCommand>
+    <CleanCommand></CleanCommand>
+    <ProductionBuildCommand>npm run build</ProductionBuildCommand>
+    <StartupCommand>npm run watch</StartupCommand>
+  </PropertyGroup>
+</Project>

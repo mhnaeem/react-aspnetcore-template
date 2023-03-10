@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 25.0.1705.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{91FA5701-59DF-4FDE-AF73-9F04CB38F5C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{796B537D-270F-492B-B8FA-64B45BE41D40} = {796B537D-270F-492B-B8FA-64B45BE41D40}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3AC30B2-9645-47E6-9884-57F85D95AB7A}"
 	ProjectSection(SolutionItems) = preProject
