@@ -19,6 +19,12 @@
   "engines": {
     "node": ">=16.18.1"
   },
+  "browserslist": [
+    "last 5 Chrome versions",
+    "last 5 Safari versions",
+    "last 5 Firefox versions",
+    "last 5 Edge versions"
+  ],
   "scripts": {
     "build": "parcel build --no-source-maps --dist-dir ../WebAPI/wwwroot --no-cache",
     "check": "tsc",
