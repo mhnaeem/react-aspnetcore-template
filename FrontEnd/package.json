@@ -23,6 +23,8 @@
     "build": "parcel build --no-source-maps --dist-dir ../WebAPI/wwwroot --no-cache",
     "check": "tsc",
     "lint": "",
+    "clean": "sh ./scripts/cleanup.sh",
+    "clean:windows": "scripts\\cleanup.bat",
     "start": "parcel",
     "watch": "parcel watch --no-source-maps --dist-dir ../WebAPI/wwwroot",
     "test": ""
