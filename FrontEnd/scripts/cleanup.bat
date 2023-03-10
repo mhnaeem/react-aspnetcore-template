@@ -1,4 +1,4 @@
-rmdir obj 2> nul
-rmdir bin 2> nul
-rmdir .parcel-cache 2> nul
-rmdir dist 2> nul
+if exist rmdir .\obj\ rmdir /s /q obj
+if exist rmdir .\bin\ rmdir /s /q bin
+if exist rmdir .\.parcel-cache\ rmdir /s /q .parcel-cache
+if exist rmdir .\dist\ rmdir /s /q dist
